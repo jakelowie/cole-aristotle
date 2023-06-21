@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>W3.CSS Template</title>
+<title>Cole Aristotle's Christening</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <style>
@@ -15,79 +17,91 @@ p {line-height: 2}
   background-position: center;
   background-size: cover;
 }
-.bgimg {background-image: url("/w3images/wedding_couple.jpg")}
-.bgimg2 {background-image: url("/w3images/flowers.jpg")}
+.bgimg {
+	background-image: url("cole-pic.jpg");
+    background-position: center;
+	padding-top: 1000px;
+}
+.bgimg2 {
+	background-image: url("cole-pic3.jpg");
+    background-position: center;
+	padding-top: 1000px;
+}
 </style>
 </head>
 <body>
 
 <!-- Header / Home-->
-<header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
+<header data-aos="fade-down" class="w3-display-container w3-wide bgimg w3-animate-top" id="home">
   <div class="w3-display-middle w3-text-white w3-center">
-    <h1 class="w3-jumbo">Jane & John</h1>
-    <h2>Are getting married</h2>
-    <h2><b>17.07.2017</b></h2>
+    <h1 class="w3-jumbo">Cole Aristotle</h1>
+    <h2>is getting baptized</h2>
+    <h2><b>07.22.2023</b></h2>
   </div>
 </header>
 
 <!-- Navbar (sticky bottom) -->
-<div class="w3-bottom w3-hide-small">
+<!-- <div class="w3-bottom w3-hide-small w3-animate-opacity">
   <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
-    <a href="#home" style="width:25%" class="w3-bar-item w3-button">Home</a>
-    <a href="#us" style="width:25%" class="w3-bar-item w3-button">Jane & John</a>
-    <a href="#wedding" style="width:25%" class="w3-bar-item w3-button">Wedding</a>
+    <a href="#home" style="width:30%" class="w3-bar-item w3-button">Home</a>
+    <a href="#us" style="width:40%" class="w3-bar-item w3-button">Cole Aristotle</a>
+    <a href="#baptismal" style="width:30%" class="w3-bar-item w3-button">Baptismal</a>
     <a href="#rsvp" style="width:25%" class="w3-bar-item w3-button w3-hover-black">RSVP</a>
   </div>
-</div>
+</div> -->
 
 <!-- About / Jane And John -->
-<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min" id="us">
-  <div class="w3-content">
-    <h1 class="w3-center w3-text-grey"><b>Jane & John</b></h1>
-    <img class="w3-round w3-grayscale-min" src="/w3images/wedding_couple2.jpg" style="width:100%;margin:32px 0">
-    <p><i>You all know us. And we all know you. We are getting married lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-      occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-      laboris nisi ut aliquip ex ea commodo consequat.</i>
-    </p><br>
-    <p class="w3-center"><a href="#wedding" class="w3-button w3-black w3-round w3-padding-large w3-large">Wedding Details</a></p>
+<div data-aos="fade-down" class="w3-container w3-padding-64 w3-light-blue w3-animate-top" id="us">
+  <div data-aos="fade-down" class="w3-content">
+    <h1 data-aos="fade-down" class="w3-center w3-text-white">
+		<b>Meet our cute little angel!</b>
+	</h1>
+	<div data-aos="fade-down" class="w3-center">
+		<img class="w3-round" src="cole-pic2.jpg" style="width:60%;background-position: center;">
+	</div>
+    <p data-aos="fade-down" class="w3-sans-serif w3-text-grey">
+		Hello Everyone, last May 28, 2023 an angel was gifted to us by our dear lord. The journey was not easy but it was very worth it.
+		This angel is very strong and we are very happy to have him. To continue his journey in our world we are planning to baptized him
+	and ofcourse we want you to be there with us to welcome him in the Christian World!</p><br>
+    <!-- <p class="w3-center"><a href="#baptismal" class="w3-button w3-blue w3-round w3-padding-large w3-large">Baptismal Details</a></p> -->
   </div>
 </div>
 
 <!-- Background photo -->
-<div class="w3-display-container bgimg2">
-  <div class="w3-display-middle w3-text-white w3-center">
-    <h1 class="w3-jumbo">You Are Invited</h1><br>
-    <h2>Of course..</h2>
+<div data-aos="fade-down" class="w3-display-container bgimg2 w3-animate-top">
+  <div data-aos="fade-down" class="w3-display-middle w3-text-white w3-center">
+    <h1 class="w3-jumbo">So you are cordially invited!</h1><br>
+    <h2>to our little angel's Christening....</h2>
   </div>
 </div>
 
 <!-- Wedding information -->
-<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="wedding">
-  <div class="w3-content">
-    <h1 class="w3-text-grey"><b>THE WEDDING</b></h1>
-    <img class="w3-round-large w3-grayscale-min" src="/w3images/wedding_location.jpg" style="width:100%;margin:64px 0">
-    <div class="w3-row">
-      <div class="w3-half">
+<div data-aos="fade-down" class="w3-container w3-padding-64 w3-light-blue w3-center w3-animate-top" id="baptismal">
+  <div data-aos="fade-down" class="w3-content">
+    <h1 class="w3-text-white"><b>THE BAPTISMAL</b></h1>
+    <img data-aos="fade-down" class="w3-round-large" src="church.jpg" style="width:80%;margin:64px 0">
+    <div data-aos="fade-down" class="w3-row">
+      <div data-aos="fade-down" class="w3-half w3-text-white">
         <h2>When</h2>
-        <p>Wedding Ceremony - 2:00pm</p>
-        <p>Reception & Dinner - 5:00pm</p>
+        <p>Baptismal Ceremony - 12:00pm</p>
+        <p>Reception & Dinner - 1:00pm</p>
       </div>
-      <div class="w3-half">
+      <div data-aos="fade-down" class="w3-half w3-text-white">
         <h2>Where</h2>
-        <p>Some place, an address</p>
-        <p>Some where, some address</p>
+        <p>Nuestra Señora De Regla - Parish National Shrine</p>
+        <p>Humay-Humay, Gun-ob, Lapu-Lapu City</p>
       </div>
     </div>
   </div>
 </div>
 
 <!-- RSVP section -->
-<div class="w3-container w3-padding-64 w3-pale-red w3-center w3-wide" id="rsvp">
+<div data-aos="fade-down" class="w3-container w3-padding-64 w3-light-blue w3-center w3-wide w3-text-white w3-animate-top" id="rsvp">
   <h1>HOPE YOU CAN MAKE IT!</h1>
-  <p class="w3-large">Kindly Respond By January, 2017</p>
+  <!-- <p class="w3-large">Kindly Respond By January, 2017</p>
   <p class="w3-xlarge">
     <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off" style="padding:8px 60px">RSVP</button>
-  </p>
+  </p> -->
 </div>
 
 <!-- RSVP modal -->
@@ -113,10 +127,13 @@ p {line-height: 2}
 </div>
 
 <!-- Footer -->
-<footer class="w3-center w3-black w3-padding-16">
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+<footer class="w3-center w3-white w3-padding-16">
+  <!-- <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p> -->
 </footer>
 <div class="w3-hide-small" style="margin-bottom:32px"> </div>
 
 </body>
 </html>
+<script>
+	AOS.init();
+</script>
